@@ -75,7 +75,7 @@ Node 2 Address key: 191e5bA8B452c3f522D2A786056Eb3a9f019d6a4
 
 * Now exit puppeth by using the Ctrl+C keys combination.
 
-## D. Initialize each node with the new testanet.json.
+## D. Initialize each node with the new oicnet.json.
 
 D-1. Create json files using puppeth in terminal. 
 
@@ -95,9 +95,9 @@ D-1. Create json files using puppeth in terminal.
 
 D-2. Now we will use geth to initalize node 1 and node 2 by typing below cmd in terminal.
 
-```./geth --datadir node1 init testinet.json```
+```./geth --datadir node1 init oicnet.json```
 
-```./geth --datadir node2 init testinet.json```
+```./geth --datadir node2 init oicnet.json```
 
 ![initialize_node](./POA_pics/initialize_node.png)
 
